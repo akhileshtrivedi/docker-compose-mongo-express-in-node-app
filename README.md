@@ -12,7 +12,7 @@ Step 2: access the nodejs application from browser
 
     http://localhost:3000
 
-Step 3: start mongodb, mongo-express and application
+Step 3: stop mongodb, mongo-express and application
 
     docker-compose -f docker-compose.yaml down
 
