@@ -2,7 +2,7 @@
 
 #### To start the application through docker image
 
-Step 1: start mongodb and mongo-express
+Step 1: start mongodb, mongo-express and application
 
     docker-compose -f docker-compose.yaml up
     
@@ -12,5 +12,7 @@ Step 2: access the nodejs application from browser
 
     http://localhost:3000
 
+Step 3: start mongodb, mongo-express and application
 
+    docker-compose -f docker-compose.yaml down
 
